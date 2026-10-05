@@ -9,7 +9,7 @@ bond.data
 ```{r}
 #| cache: true
 #| echo: false
-#| poutpur: false
+#| output: false
 profitable<-bond.data |>
     select(Year, Movie, US_Gross) |>
     arrange(desc(US_Gross))

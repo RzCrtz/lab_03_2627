@@ -35,7 +35,7 @@ ggplot(bond.data, aes(x=Budget, y=US_Gross, color=Year)) +
 
 # Definitely looks like year correlates with both earnings and budget.
 
-# The dataset contains inflation-adjusted numbers, let's use those instead.
+The dataset contains *inflation-adjusted* numbers, let's use those instead.
 
 ```{r}
 ggplot(bond.data, aes(x=Budget_Adj, y=US_Adj, color=Year)) +

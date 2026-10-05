@@ -4,7 +4,7 @@ bond.data <- read_csv("data/jamesbond.csv")
 bond.data
 ```
 
-# Which movie earned the most? Hamza
+# Which movie earned the most?
 
 ```{r}
 #| cache: true
